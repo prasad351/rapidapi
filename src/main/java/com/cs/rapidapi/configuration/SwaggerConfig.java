@@ -1,4 +1,4 @@
-package com.cs.rapidapi;
+package com.cs.rapidapi.configuration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
@@ -27,11 +27,11 @@ public class SwaggerConfig implements WebMvcConfigurer  {
 
 	    private ApiInfo apiInfo() {
 	        ApiInfo apiInfo = new ApiInfo(
-	                "StudentSearchApplication",
-	                "An application to search Student from a Student repository by studentId",
-	                "StudentSearchApplication v1",
+	                "COVID-19 Coronavirus Statistics",
+	                "COVID-19 Coronavirus Statistics API Documentation based on the country",
+	                "COVID-19 Coronavirus Statistics v1",
 	                "Terms of service",
-	                "hendisantika@gmail.com",
+	                "@@@hddhh.com",
 	                "License of API",
 	                "https://swagger.io/docs/");
 	        return apiInfo;
