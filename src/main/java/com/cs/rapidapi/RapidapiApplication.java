@@ -12,7 +12,10 @@ public class RapidapiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(RapidapiApplication.class, args);
 	}
-	@Bean public RestTemplate getRestTemplate() { return new RestTemplate(); }
-	
-	 
+
+	@Bean
+	public RestTemplate getRestTemplate() {
+		return new RestTemplate();
+	}
+
 }
